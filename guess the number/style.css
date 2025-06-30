@@ -1,0 +1,44 @@
+body {
+  background-color: #a00606;
+  background: linear-gradient(90deg,#0000CD 0%, #0000FF 50%, #1E90FF 100%);
+  font-family: 'Lucida Handwriting', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1, h2 {
+  font-size: 3em;
+  margin: 10px;
+  text-shadow: 2px 2px 0 rgb(42, 40, 40);
+}
+
+h1 span, h2 span {
+  color: #f8fbfb;
+  text-shadow: 2px 2px 0 rgb(42, 40, 40);
+}
+
+button {
+  background-color: #ff9800;
+  color: rgb(13, 12, 12);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 80px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#message {
+  font-size: 1.2em;
+  color: yellow;
+  margin-top: 20px;
+}
